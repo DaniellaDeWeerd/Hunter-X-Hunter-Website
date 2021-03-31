@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hunter X Hunter Website</title>
+    <!--
+             Hunter X Hunter Website main web page
+             Filename: signup.html
+          
+             Author:Daniella DeWeerd   
+             Date:3/18/21 
+          -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="modernizr.custom.40753.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="respond.min.js"></script>
+    <link rel="shortcut icon" href="OtherImages/hunterxhuntericon.png">
+</head>
+
+<body>
+    <div class="container">
+        <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
+        <header>
+            <img src="OtherImages/hxh-banner.jpg" class="headerImg">
+        </header>
+        <div>
+            <nav class="sitenavigation">
+                <div class="navigation-menu-button">
+                    <img src="OtherImages/Hamburger_icon.png" width="60" height="60" alt="Show navigation">
+                </div>
+                <ol>
+                    <li><a href="index.html">Overview</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="world.html">World</a></li>
+                    <li><a href="concepts.html">Concepts</a></li>
+                    <ul>
+                        <li><a href="concepts.html#nen">Nen</a></li>
+                        <li><a href="concepts.html#hunters">Hunters</a></li>
+                        <li><a href="concepts.html#hunterexam">Hunter Exam</a></li>
+                    </ul>
+                    <li><a href="storyarcs.html">Story Arcs</a></li>
+                    <ul>
+                        <li><a href="storyarcs.html">Hunter Exam</a></li>
+                        <li><a href="storyarcs.html">Heaven's Arena</a></li>
+                        <li><a href="storyarcs.html">Yorknew City</a></li>
+                        <li><a href="storyarcs.html">Greed Island</a></li>
+                        <li><a href="storyarcs.html">Chimera Ant</a></li>
+                        <li><a href="storyarcs.html">13th Hunter Chairman</a></li>
+                    </ul>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ol>
+            </nav>
+            <article>
+                <div class="heart"></div>
+                <h2>Sign Up</h2>
+                <h3>Fill out this form to get Hunter X Hunter updates!</h3>
+                <form action="results.html">
+                    <fieldset class="contactinfo">
+                        <legend>Personal Information</legend>
+                        <label for="fnameinput">First Name
+                           <input id="fnameinput" name="first name" placeholder="First Name">
+                        </label>
+                        <label for="lnameinput">Last Name
+                         <input id="lnameinput" name="last name" placeholder="Last Name">
+                        </label>
+                        <label for="emailinput">Email
+                         <input id="emailinput" name="email" placeholder="address@example.com">
+                        </label>
+                    </fieldset>
+                    <fieldset class="updateinfo">
+                        <legend>Types of Updates</legend>
+                        <label for="funfact">
+                           <input type="checkbox" id="funfact" name="updates" value="FunFacts">
+                           HxH Fun Fact of the Week
+                        </label>
+                        <label for="websiteupdate">
+                         <input type="checkbox" id="websiteupdate" name="updates" value="WebsiteUpdate">
+                         Website Updated
+                      </label>
+                    </fieldset>
+                    <fieldset class="additionalinfo">
+                        <legend>Additional Information</legend>
+                        <label for="feedback"> Questions or Special Requests
+                         <textarea name="feedback" id="feedback" rows="7"></textarea>
+                      </label>
+                    </fieldset>
+                    <fieldset class="submitbutton">
+                        <input type="submit" id="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </article>
+        </div>
+        <footer>
+            <p>Daniella DeWeerd</p>
+            <p>Filler information from:</p>
+            <p>https://hunterxhunter.fandom.com/</p>
+            <p>https://myanimelist.net/anime/136/Hunter_x_Hunter</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,566 @@
+﻿/* 
+   Murfreesboro Regional Soccer League style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit H, Independent Challenge 2
+ */
+
+
+/* reset styles */
+
+html {
+    font-size: 14px;
+}
+
+article,
+aside,
+body,
+div,
+footer,
+header,
+h1,
+h2,
+h3,
+img,
+nav,
+p,
+ul,
+li,
+ol table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+section,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+
+/* body and page container */
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    background-color: #1A334A;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+/* skip navigation link */
+
+p.skipnavigation a {
+    position: absolute;
+    left: -10000px;
+}
+
+p.skipnavigation a:focus {
+    left: 1em;
+    top: 1em;
+    color: black;
+    background: ivory;
+    z-index: 2;
+}
+
+
+/* header section */
+
+header {
+    text-align: center;
+    background: #1A334A;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+}
+
+header div {
+    display: block;
+    max-width: 224px;
+    float: left;
+}
+
+.headerImg {
+    width: 100%;
+}
+
+
+/* site navigation */
+
+nav.sitenavigation {
+    padding: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    text-align: left;
+    z-index: 2;
+}
+
+nav.sitenavigation li {
+    font-size: 1em;
+    width: 95%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+nav.sitenavigation li:hover {
+    transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    -webkit-transform: translateX(25px);
+}
+
+nav.sitenavigation ul {
+    font-size: 0.85em;
+    padding-left: 20%;
+    font-weight: 100;
+    text-align: left;
+}
+
+nav.sitenavigation ol {
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #1A334A;
+    display: none;
+    position: absolute;
+    text-align: left;
+    background: #1A334A;
+    width: 200%;
+    padding-inline-start: 0;
+}
+
+nav.sitenavigation a {
+    margin-bottom: 0.6em;
+    padding: 0.2em;
+    display: block;
+    background-color: #1A334A;
+    font-weight: bold;
+}
+
+nav.sitenavigation a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav.sitenavigation a:visited {
+    color: white;
+}
+
+nav.sitenavigation a:hover,
+nav.sitenavigation a:focus {
+    color: black;
+    background-color: white;
+}
+
+nav.sitenavigation a:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+
+/* main content */
+
+article {
+    padding: 1em 3%;
+    width: 60%;
+    position: relative;
+    background-color: #f3e2ce;
+    min-height: 30em;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 2.4em;
+    line-height: 1.4em;
+    font-family: Garamond, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+article h3 {
+    margin: 0 0 0.4em;
+    font-family: Garamond, "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+
+article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 1em 1em;
+    padding-left: 7%;
+}
+
+article p:first-child {
+    margin-top: 0;
+}
+
+
+/* main content unordered list */
+
+article ul {
+    margin: 0 0 1em 3em;
+    padding-left: 7%;
+    list-style-type: disc;
+    font-size: 1;
+}
+
+
+/* main content table */
+
+table,
+th,
+tr,
+td {
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+th {
+    background-color: rgb(206, 206, 206);
+}
+
+
+/* fieldset styles */
+
+fieldset {
+    border: 2px solid black;
+    padding: 2%;
+    margin-bottom: 0.8em;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submitbutton {
+    border: none;
+    text-align: center;
+}
+
+.heart {
+    position: relative;
+    width: 40px;
+    height: 36px;
+    float: left;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-name: logozoom;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-name: logozoom;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 20px;
+    top: 0;
+    width: 20px;
+    height: 32px;
+    background: darkgreen;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+@keyframes logozoom {
+    0% {
+        left: 800px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@-webkit-keyframes logozoom {
+    0% {
+        left: 800px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.no-borderradius div .heart {
+    display: none;
+}
+
+
+/* field styles */
+
+input,
+textarea {
+    border: 1px solid #777;
+    padding: 0.2em;
+    font-size: 1em;
+}
+
+.contactinfo input {
+    position: absolute;
+    left: 6em;
+}
+
+#fnameinput,
+#lnameinput,
+#emailinput {
+    width: 20em;
+}
+
+#phoneinput {
+    width: 12em;
+}
+
+#feedback {
+    width: 98%;
+    display: block;
+}
+
+#submit {
+    border: 1px solid #999;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #c8f098;
+    border-radius: 0.5em;
+}
+
+
+/* label styles */
+
+label {
+    font-size: 1.2em;
+}
+
+.contactinfo label {
+    display: block;
+    position: relative;
+    margin: 1em 0;
+}
+
+.membershipinfo label {
+    margin-right: 1em;
+}
+
+
+/* footer section */
+
+footer {
+    padding: 0.5em;
+    clear: both;
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+@media screen and (min-width: 0px),
+print {}
+
+
+/* small screen/tablet styles */
+
+@media screen and (min-width: 400px),
+print {
+    aside {
+        display: block;
+    }
+    article {
+        width: 94%;
+        font-size: 1em;
+        float: left;
+    }
+    nav.sitenavigation {
+        position: absolute;
+    }
+    nav.sitenavigation ol {
+        width: 100%;
+    }
+    nav.sitenavigation img {
+        display: inline-block;
+    }
+    div.navigation-menu-button {
+        height: 30%;
+        width: 30%;
+    }
+    .heart {
+        position: absolute;
+        left: 60px;
+    }
+    @keyframes logozoom {
+        0% {
+            left: 800px;
+        }
+        100% {
+            left: 60px;
+        }
+    }
+    @-webkit-keyframes logozoom {
+        0% {
+            left: 800px;
+        }
+        100% {
+            left: 60px;
+        }
+    }
+}
+
+
+/* standard screen styles */
+
+@media screen and (min-width: 760px),
+print {
+    body {
+        padding: 1em;
+    }
+    .container {
+        background-color: #1A334A;
+    }
+    header {
+        width: auto;
+        float: none;
+    }
+    header div {
+        display: block;
+    }
+    nav.sitenavigation {
+        padding: 0;
+        width: 21%;
+        float: left;
+        position: relative;
+    }
+    nav.sitenavigation img {
+        display: none;
+    }
+    nav.sitenavigation ol {
+        display: block;
+        position: relative;
+        padding-inline-start: 0;
+        padding-right: 0;
+        background: none;
+        border: none;
+    }
+    nav.sitenavigation ol {
+        width: auto;
+    }
+    nav.sitenavigation a {
+        margin-bottom: 0.6em;
+    }
+    article {
+        width: 73%;
+        font-size: 1em;
+    }
+    aside {
+        width: 19%;
+    }
+    div.navigation-menu-button {
+        height: 0;
+        width: 0;
+    }
+    .heart {
+        position: absolute;
+        left: 0px;
+    }
+    @keyframes logozoom {
+        0% {
+            left: 800px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+    @-webkit-keyframes logozoom {
+        0% {
+            left: 800px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+}
+
+
+/* large screen styles */
+
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 1040px;
+    }
+}
+
+
+/* print styles */
+
+@media print {
+    article {
+        position: static;
+        margin: 0 auto;
+    }
+    aside,
+    body,
+    .container,
+    footer {
+        color: #000;
+        background: #fff;
+    }
+    header {
+        padding: 0;
+    }
+    body {
+        max-width: 100%;
+    }
+    nav {
+        display: none;
+    }
+}
+
+@page {
+    margin: 0.75in;
+}
