@@ -41,13 +41,15 @@ form,
 input,
 label,
 legend,
-textarea {
+textarea,
+video {
     border: 0;
     padding: 0;
     margin: 0;
 }
 
-img {
+img,
+video {
     max-width: 100%;
     height: auto;
     width: auto;
@@ -215,14 +217,40 @@ article h3 {
     font-size: 2em;
 }
 
+.containerImg {
+    position: relative;
+}
+
+.imgText {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#linkedImg {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#displayText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+    border: 1px solid black;
+}
+
 article p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 0 1em 1em;
-    padding-left: 7%;
 }
 
 article p:first-child {
     margin-top: 0;
+}
+
+video {
+    padding: 2em 0;
 }
 
 
@@ -232,7 +260,11 @@ article ul {
     margin: 0 0 1em 3em;
     padding-left: 7%;
     list-style-type: disc;
-    font-size: 1;
+    font-size: 1em;
+}
+
+article li {
+    font-size: 1.2em;
 }
 
 
