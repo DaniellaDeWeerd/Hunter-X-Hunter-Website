@@ -36,13 +36,17 @@ var hunterChairmanImg = document.querySelector("#HunterChairman")
 
 function textHunterExam() {
     if (document.getElementById("displayHunterExam").style.display === "block") {
+
         document.getElementById("displayHunterExam").style.display = 'none';
     } else {
-        document.getElementById("displayHunterExam").innerHTML = '<h3>Hunter Exam</h3>' +
+     /*    document.getElementById("displayHunterExam").innerHTML = '<h3>Hunter Exam</h3>' +
             '<p style="text-align:center;"><img src="OtherImages/hunterExamRunning.jpg" alt="The Running Phase of the Hunter Exam"></p>' +
             '<p>The Hunter Exam (ハンター試験, Hantā Shiken) is a yearly event which an applicant must pass in order to become a Hunter, an elite member of humanity and a part of the Hunter Association. These exams consist of several tests and stages which can vary drastically. Thus far, 289 Hunter Exams have taken place. The Head of the Exam Commission is the Chairman of the Hunter Association themselves.</p>' +
             '<p style="text-align:center;"><img src="OtherImages/hunterExamHanging.jfif" alt="The Egg Capturing Phase of the Hunter Exam"></p>';
-        document.getElementById("displayHunterExam").style.display = 'block';
+        */
+        $( "#displayHunterExam" ).slideDown( "slow", function() {
+            document.getElementById("displayHunterExam").style.display = 'block';
+          });
         document.getElementById("displayHeavensArena").style.display = 'none';
         document.getElementById("displayYorknewCity").style.display = 'none';
         document.getElementById("displayGreedIsland").style.display = 'none';

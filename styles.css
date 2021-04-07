@@ -233,6 +233,9 @@ article h3 {
     width: 100%;
     object-fit: cover;
 }
+.startClosed{
+    display:none;
+}
 
 article p {
     font-family: Georgia, 'Times New Roman', Times, serif;
