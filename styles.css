@@ -234,12 +234,6 @@ article h3 {
     object-fit: cover;
 }
 
-#displayText {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1em;
-    border: 1px solid black;
-}
-
 article p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 0 1em 1em;
