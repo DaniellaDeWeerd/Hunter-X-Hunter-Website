@@ -26,12 +26,13 @@ if (navButton.addEventListener) {
     });
 }
 
-var hunterExamImg = document.querySelector(".hunterExamImg");
-var heavensArenaImg = document.querySelector(".heavensArenaImg");
-var yorknewCityImg = document.querySelector(".yorknewCityImg");
-var greedIslandImg = document.querySelector(".greedIslandImg")
-var chimeraAntImg = document.querySelector(".chimeraAntImg")
-var hunterChairmanImg = document.querySelector(".HunterChairmanImg")
+var hunterExamImg = document.querySelector("#hunterExam1");
+var heavensArenaImg = document.querySelector("#heavensArena");
+var yorknewCityImg = document.querySelector("#yorknewCity");
+var greedIslandImg = document.querySelector("#greedIsland")
+var chimeraAntImg = document.querySelector("#chimeraAnt")
+var hunterChairmanImg = document.querySelector("#HunterChairman")
+
 
 function textHunterExam() {
     document.getElementById("displayText").innerHTML = '<h3>Hunter Exam</h3>' +
