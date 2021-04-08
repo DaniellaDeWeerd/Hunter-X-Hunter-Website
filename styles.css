@@ -219,10 +219,7 @@ article h3 {
 
 .containerImg {
     position: relative;
-    cursor:pointer;
-}
-.containerImg:hover {
-    font-size: 1.25em;
+    cursor: pointer;
 }
 
 .imgText {

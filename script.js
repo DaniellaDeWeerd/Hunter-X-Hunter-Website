@@ -43,7 +43,7 @@ function textHunterExam() {
         $("#displayHunterExam").slideDown("slow", function() {
             document.getElementById("displayHunterExam").style.display = 'block';
         });
-     
+
     }
 
 }
@@ -57,7 +57,7 @@ function textHeavensArena() {
         $("#displayHeavensArena").slideDown("slow", function() {
             document.getElementById("displayHeavensArena").style.display = 'block';
         });
-      
+
     }
 
 }
@@ -71,7 +71,7 @@ function textYorknewCity() {
         $("#displayYorknewCity").slideDown("slow", function() {
             document.getElementById("displayYorknewCity").style.display = 'block';
         });
-      
+
     }
 
 }
@@ -85,7 +85,7 @@ function textGreedIsland() {
         $("#displayGreedIsland").slideDown("slow", function() {
             document.getElementById("displayGreedIsland").style.display = 'block';
         });
-       
+
     }
 
 
@@ -101,7 +101,7 @@ function textChimeraAnt() {
         $("#displayChimeraAnt").slideDown("slow", function() {
             document.getElementById("displayChimeraAnt").style.display = 'block';
         });
-       
+
     }
 
 }
@@ -115,7 +115,7 @@ function textHunterChairman() {
         $("#displayHunterChairman").slideDown("slow", function() {
             document.getElementById("displayHunterChairman").style.display = 'block';
         });
-      
+
     }
 
 }
@@ -126,3 +126,10 @@ yorknewCityImg.addEventListener("click", textYorknewCity, false)
 greedIslandImg.addEventListener("click", textGreedIsland, false)
 chimeraAntImg.addEventListener("click", textChimeraAnt, false)
 hunterChairmanImg.addEventListener("click", textHunterChairman, false)
+
+$('.containerImg').hover(function() {
+        $(this).stop().animate({ fontSize: '1.25em' });
+    },
+    function() {
+        $(this).stop().animate({ fontSize: '1em' });
+    });
