@@ -43,11 +43,7 @@ function textHunterExam() {
         $("#displayHunterExam").slideDown("slow", function() {
             document.getElementById("displayHunterExam").style.display = 'block';
         });
-        document.getElementById("displayHeavensArena").style.display = 'none';
-        document.getElementById("displayYorknewCity").style.display = 'none';
-        document.getElementById("displayGreedIsland").style.display = 'none';
-        document.getElementById("displayChimeraAnt").style.display = 'none';
-        document.getElementById("displayHunterChairman").style.display = 'none';
+     
     }
 
 }
@@ -61,11 +57,7 @@ function textHeavensArena() {
         $("#displayHeavensArena").slideDown("slow", function() {
             document.getElementById("displayHeavensArena").style.display = 'block';
         });
-        document.getElementById("displayHunterExam").style.display = 'none';
-        document.getElementById("displayYorknewCity").style.display = 'none';
-        document.getElementById("displayGreedIsland").style.display = 'none';
-        document.getElementById("displayChimeraAnt").style.display = 'none';
-        document.getElementById("displayHunterChairman").style.display = 'none';
+      
     }
 
 }
@@ -79,11 +71,7 @@ function textYorknewCity() {
         $("#displayYorknewCity").slideDown("slow", function() {
             document.getElementById("displayYorknewCity").style.display = 'block';
         });
-        document.getElementById("displayHunterExam").style.display = 'none';
-        document.getElementById("displayHeavensArena").style.display = 'none';
-        document.getElementById("displayGreedIsland").style.display = 'none';
-        document.getElementById("displayChimeraAnt").style.display = 'none';
-        document.getElementById("displayHunterChairman").style.display = 'none';
+      
     }
 
 }
@@ -97,11 +85,7 @@ function textGreedIsland() {
         $("#displayGreedIsland").slideDown("slow", function() {
             document.getElementById("displayGreedIsland").style.display = 'block';
         });
-        document.getElementById("displayHunterExam").style.display = 'none';
-        document.getElementById("displayHeavensArena").style.display = 'none';
-        document.getElementById("displayYorknewCity").style.display = 'none';
-        document.getElementById("displayChimeraAnt").style.display = 'none';
-        document.getElementById("displayHunterChairman").style.display = 'none';
+       
     }
 
 
@@ -117,11 +101,7 @@ function textChimeraAnt() {
         $("#displayChimeraAnt").slideDown("slow", function() {
             document.getElementById("displayChimeraAnt").style.display = 'block';
         });
-        document.getElementById("displayHunterExam").style.display = 'none';
-        document.getElementById("displayHeavensArena").style.display = 'none';
-        document.getElementById("displayYorknewCity").style.display = 'none';
-        document.getElementById("displayGreedIsland").style.display = 'none';
-        document.getElementById("displayHunterChairman").style.display = 'none';
+       
     }
 
 }
@@ -135,11 +115,7 @@ function textHunterChairman() {
         $("#displayHunterChairman").slideDown("slow", function() {
             document.getElementById("displayHunterChairman").style.display = 'block';
         });
-        document.getElementById("displayHunterExam").style.display = 'none';
-        document.getElementById("displayHeavensArena").style.display = 'none';
-        document.getElementById("displayYorknewCity").style.display = 'none';
-        document.getElementById("displayGreedIsland").style.display = 'none';
-        document.getElementById("displayChimeraAnt").style.display = 'none';
+      
     }
 
 }
