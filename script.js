@@ -1,7 +1,6 @@
 /* 
-   Lakeland Reeds Bed and Breakfast menu toggle script 
+   Hunter X Hunter Website main web page
    Filename: script.js
-   HTML5 and CSS3 Illustrated Unit I, Skills Review
  */
 
 var navButton = document.querySelector(".navigation-menu-button img");
