@@ -158,7 +158,6 @@ nav.sitenavigation ol {
     text-align: left;
     background: #1A334A;
     width: 200%;
-    padding-inline-start: 0;
 }
 
 nav.sitenavigation a {
@@ -552,7 +551,6 @@ print {
     nav.sitenavigation ol {
         display: block;
         position: relative;
-        padding-inline-start: 0;
         padding-right: 0;
         background: none;
         border: none;
