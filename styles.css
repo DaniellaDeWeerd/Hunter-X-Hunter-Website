@@ -563,6 +563,9 @@ print {
     nav.sitenavigation a {
         margin-bottom: 0.6em;
     }
+    .social-media-buttons {
+        display: inline-block;
+    }
     article {
         width: 73%;
         font-size: 1em;

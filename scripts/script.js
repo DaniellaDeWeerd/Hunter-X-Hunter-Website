@@ -24,7 +24,7 @@ if (navButton.addEventListener) {
         }
     });
 }
-
+function initStoryArcs(){
 var hunterExamImg = document.querySelector("#hunterExam1");
 var heavensArenaImg = document.querySelector("#heavensArena");
 var yorknewCityImg = document.querySelector("#yorknewCity");
@@ -32,7 +32,21 @@ var greedIslandImg = document.querySelector("#greedIsland")
 var chimeraAntImg = document.querySelector("#chimeraAnt")
 var hunterChairmanImg = document.querySelector("#HunterChairman")
 
+hunterExamImg.addEventListener("click", textHunterExam, false)
+heavensArenaImg.addEventListener("click", textHeavensArena, false)
+yorknewCityImg.addEventListener("click", textYorknewCity, false)
+greedIslandImg.addEventListener("click", textGreedIsland, false)
+chimeraAntImg.addEventListener("click", textChimeraAnt, false)
+hunterChairmanImg.addEventListener("click", textHunterChairman, false)
 
+$('.containerImg').hover(function() {
+        $(this).stop().animate({ fontSize: '1.25em' });
+    },
+    function() {
+        $(this).stop().animate({ fontSize: '1em' });
+    });
+    
+}
 function textHunterExam() {
     if (document.getElementById("displayHunterExam").style.display === "block") {
         $("#displayHunterExam").slideUp("slow", function() {
@@ -119,16 +133,3 @@ function textHunterChairman() {
 
 }
 
-hunterExamImg.addEventListener("click", textHunterExam, false)
-heavensArenaImg.addEventListener("click", textHeavensArena, false)
-yorknewCityImg.addEventListener("click", textYorknewCity, false)
-greedIslandImg.addEventListener("click", textGreedIsland, false)
-chimeraAntImg.addEventListener("click", textChimeraAnt, false)
-hunterChairmanImg.addEventListener("click", textHunterChairman, false)
-
-$('.containerImg').hover(function() {
-        $(this).stop().animate({ fontSize: '1.25em' });
-    },
-    function() {
-        $(this).stop().animate({ fontSize: '1em' });
-    });
