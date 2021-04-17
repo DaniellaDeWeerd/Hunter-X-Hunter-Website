@@ -190,6 +190,28 @@ nav.sitenavigation a:active {
     left: 1px;
 }
 
+.social-media-buttons {
+    float: left;
+    clear: both;
+}
+
+nav ul,
+nav div,
+nav iframe {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.socialButtons {
+    height: 20px;
+    width: 60px;
+}
+
+.hamburgerButton {
+    height: 80%;
+    width: 80%;
+}
+
 
 /* main content */
 
@@ -249,6 +271,12 @@ article p:first-child {
 
 video {
     padding: 2em 0;
+    width: 100%;
+}
+
+iframe {
+    padding: 2em 0;
+    width: 100%;
 }
 
 
@@ -304,7 +332,7 @@ legend {
 
 .heart {
     position: relative;
-    width: 40px;
+    width: 20px;
     height: 36px;
     float: left;
     animation-duration: 2s;
@@ -345,7 +373,7 @@ legend {
 
 @keyframes logozoom {
     0% {
-        left: 800px;
+        left: 20px;
     }
     100% {
         left: 0;
@@ -354,7 +382,7 @@ legend {
 
 @-webkit-keyframes logozoom {
     0% {
-        left: 800px;
+        left: 0px;
     }
     100% {
         left: 0;
@@ -447,10 +475,19 @@ print {
         font-size: 1em;
         float: left;
     }
+    article img {
+        width: 100%;
+    }
+    .characterTallImg {
+        width: 30%;
+    }
     nav.sitenavigation {
         position: absolute;
     }
     nav.sitenavigation ol {
+        width: 70%;
+    }
+    nav.sitenavigation li {
         width: 100%;
     }
     nav.sitenavigation img {
@@ -460,13 +497,16 @@ print {
         height: 30%;
         width: 30%;
     }
+    .social-media-buttons {
+        display: none;
+    }
     .heart {
         position: absolute;
         left: 60px;
     }
     @keyframes logozoom {
         0% {
-            left: 800px;
+            left: 100px;
         }
         100% {
             left: 60px;
@@ -474,7 +514,7 @@ print {
     }
     @-webkit-keyframes logozoom {
         0% {
-            left: 800px;
+            left: 100px;
         }
         100% {
             left: 60px;
@@ -527,6 +567,12 @@ print {
         width: 73%;
         font-size: 1em;
     }
+    article img {
+        width: 100%;
+    }
+    .characterTallImg {
+        width: 30%;
+    }
     aside {
         width: 19%;
     }
@@ -540,7 +586,7 @@ print {
     }
     @keyframes logozoom {
         0% {
-            left: 800px;
+            left: 550px;
         }
         100% {
             left: 0px;
@@ -548,7 +594,7 @@ print {
     }
     @-webkit-keyframes logozoom {
         0% {
-            left: 800px;
+            left: 550px;
         }
         100% {
             left: 0px;

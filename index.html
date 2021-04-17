@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hunter X Hunter Website</title>
+    <title>Hunter X Hunter Website - Overview</title>
     <!--
              Hunter X Hunter Website main web page
              Filename: index.html
@@ -12,13 +12,16 @@
           -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="modernizr.custom.40753.js"></script>
+    <meta name="description" content="Hunter x Hunter is an manga turned into an anime that has been popular since it was released. The author has since then released sparce new material.">
+    <script src="scripts/modernizr.custom.40753.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="respond.min.js"></script>
+    <script src="scripts/respond.min.js"></script>
     <link rel="shortcut icon" href="OtherImages/hunterxhuntericon.png">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="nSFstsK8"></script>
     <div class="container">
         <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
         <header>
@@ -27,11 +30,19 @@
         <div>
             <nav class="sitenavigation">
                 <div class="navigation-menu-button">
-                    <img src="OtherImages/Hamburger_icon.png" width="60" height="60" alt="Show navigation">
+                    <img class="hamburgerButton" src="OtherImages/Hamburger_icon.png" alt="Show navigation">
                 </div>
                 <ol>
                     <li><a href="index.html">Overview</a></li>
                     <li><a href="characters.html">Characters</a></li>
+                    <ul>
+                        <li><a href="characters/gonFreecss.html">Gon Freecss</a></li>
+                        <li><a href="characters/killuaZoldyck.html">Killua</a></li>
+                        <li><a href="characters/kurapika.html">Kurapika</a></li>
+                        <li><a href="characters/leorio.html">Leorio</a></li>
+                        <li><a href="characters/hisoka.html">Hisoka</a></li>
+                        <li><a href="characters/chrollo.html">Chrollo</a></li>
+                    </ul>
                     <li><a href="world.html">World</a></li>
                     <li><a href="concepts.html">Concepts</a></li>
                     <ul>
@@ -42,6 +53,13 @@
                     <li><a href="storyarcs.html">Story Arcs</a></li>
                     <li><a href="signup.html">Sign Up</a></li>
                 </ol>
+                <div class="social-media-buttons">
+                    <div class="fb-like socialButtons" data-href="http://danielladeweerd.com/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+                    <div class="socialButtons">
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Look at this great Hunter X Hunter website I found!" data-show-count="false">Tweet</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
             </nav>
             <article>
                 <div class="heart"></div>
@@ -51,6 +69,7 @@
                     <source src="Videos/Hunter X Hunter Set 1- Official Extended Trailer.mp4" type="video/mp4">
                     <img src="OtherImages/Video Image.PNG">
                 </video>
+                <p>P.S. This website is best viewed in a newer browser at a size larger than 400 x 600</p>
                 <h3 id="contentstart">What is Hunter x Hunter?</h3>
                 <p>Hunter × Hunter (ハンター×ハンター, Hantā Hantā), pronounced "Hunter Hunter", is a Japanese manga series written and illustrated by Yoshihiro Togashi. It has been serialized in Weekly Shōnen Jump magazine since March 16, 1998, although the manga
                     has frequently gone on extended hiatuses since 2006. As of November 2019, 392 chapters have been collected into 37 tankōbon volumes (chapter collections) by Shueisha in Japan. The story focuses on a young boy named Gon Freecss, who
@@ -62,6 +81,9 @@
                     to September 2014 totaling 148 episodes, with two animated theatrical films released in 2013. There are also numerous audio albums, video games, musicals, and other media based on Hunter × Hunter. The manga has been translated into
                     English and released in North America by Viz Media since April 2005. Both television series were also licensed by Viz, with the first series having aired on the Funimation Channel in 2009 and the second series premiering on Adult Swim's
                     Toonami block since April 16, 2016. Hunter × Hunter has been a huge critical and financial success and has become one of Shueisha's best-selling manga series, having sold 72 million copies in Japan alone as of 2018.</p>
+                <h3 id="contentstart">Here are the recent tweets regarding it:</h3>
+                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/HaitusXHaitus?ref_src=twsrc%5Etfw">Tweets by HaitusXHaitus</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </article>
         </div>
         <footer>
@@ -71,7 +93,7 @@
             <p>https://myanimelist.net/anime/136/Hunter_x_Hunter</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

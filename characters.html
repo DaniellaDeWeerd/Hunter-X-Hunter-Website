@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hunter X Hunter Website</title>
+    <title>Hunter X Hunter Website -Characters</title>
     <!--
              Hunter X Hunter Website main web page
              Filename: characters.html
@@ -12,13 +12,16 @@
           -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="modernizr.custom.40753.js"></script>
+    <meta name="description" content="There are many important characters in Hunter x Hunter. Here are the main ones and their actors.">
+    <script src="scripts/modernizr.custom.40753.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="respond.min.js"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
     <link rel="shortcut icon" href="OtherImages/hunterxhuntericon.png">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="nSFstsK8"></script>
     <div class="container">
         <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
         <header>
@@ -27,11 +30,19 @@
         <div>
             <nav class="sitenavigation">
                 <div class="navigation-menu-button">
-                    <img src="OtherImages/Hamburger_icon.png" width="60" height="60" alt="Show navigation">
+                    <img class="hamburgerButton" src="OtherImages/Hamburger_icon.png" alt="Show navigation">
                 </div>
                 <ol>
                     <li><a href="index.html">Overview</a></li>
                     <li><a href="characters.html">Characters</a></li>
+                    <ul>
+                        <li><a href="characters/gonFreecss.html">Gon Freecss</a></li>
+                        <li><a href="characters/killuaZoldyck.html">Killua</a></li>
+                        <li><a href="characters/kurapika.html">Kurapika</a></li>
+                        <li><a href="characters/leorio.html">Leorio</a></li>
+                        <li><a href="characters/hisoka.html">Hisoka</a></li>
+                        <li><a href="characters/chrollo.html">Chrollo</a></li>
+                    </ul>
                     <li><a href="world.html">World</a></li>
                     <li><a href="concepts.html">Concepts</a></li>
                     <ul>
@@ -42,9 +53,17 @@
                     <li><a href="storyarcs.html">Story Arcs</a></li>
                     <li><a href="signup.html">Sign Up</a></li>
                 </ol>
+                <div class="social-media-buttons">
+                    <div class="fb-like socialButtons" data-href="http://danielladeweerd.com/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+                    <div class="socialButtons">
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Look at this great Hunter X Hunter website I found!" data-show-count="false">Tweet</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
             </nav>
             <article>
                 <h2 id="contentstart">Characters</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tXXU_kRmNJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>
                     <table>
                         <thead>
@@ -58,32 +77,56 @@
                             <tr>
                                 <td>Gon Freecss</td>
                                 <td>Junko Takeuchi</td>
-                                <td><img src="CharacterImages/gon.png"></td>
+                                <td>
+                                    <a href="characters/gonFreecss.html">
+                                        <img src="CharacterImages/gon.png">
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Killua Zoldyck</td>
                                 <td>Kanako Mitsuhashi</td>
-                                <td><img src="CharacterImages/killua.PNG"></td>
+                                <td>
+                                    <a href="characters/killuaZoldyck.html">
+                                        <img src="CharacterImages/killua.PNG">
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Kurapika</td>
                                 <td>Yuki Kaida</td>
-                                <td><img src="CharacterImages/kurapika.png"></td>
+                                <td>
+                                    <a href="characters/kurapika.html">
+                                        <img src="CharacterImages/kurapika.png">
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Leorio Paladiknight</td>
                                 <td>Hozumi Gouda</td>
-                                <td><img src="CharacterImages/leorio.png"></td>
+                                <td>
+                                    <a href="characters/leorio.html">
+                                        <img src="CharacterImages/leorio.png">
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Hisoka Morow</td>
                                 <td>Hiroki Takahashi</td>
-                                <td><img src="CharacterImages/hisoka.png"></td>
+                                <td>
+                                    <a href="characters/hisoka.html">
+                                        <img src="CharacterImages/hisoka.png">
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Chrollo Lucilfer</td>
                                 <td>Yoshikazu Nagano</td>
-                                <td><img src="CharacterImages/chrollo.png"></td>
+                                <td>
+                                    <a href="characters/chrollo.html">
+                                        <img src="CharacterImages/chrollo.png">
+                                    </a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -97,7 +140,7 @@
             <p>https://myanimelist.net/anime/136/Hunter_x_Hunter</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

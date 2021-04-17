@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hunter X Hunter Website</title>
+    <title>Hunter X Hunter Website - Story Arcs</title>
     <!--
              Hunter X Hunter Website main web page
              Filename: storyarcs.html
@@ -12,14 +12,17 @@
           -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="modernizr.custom.40753.js"></script>
-    <script src="jquery-3.6.0.min.js"></script>
+    <meta name="description" content="There are 6 story arcs in Hunter x Hunter that are in the 2013 anime.">
+    <script src="scripts/modernizr.custom.40753.js"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="respond.min.js"></script>
+    <script src="scripts/respond.min.js"></script>
     <link rel="shortcut icon" href="OtherImages/hunterxhuntericon.png">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="nSFstsK8"></script>
     <div class="container">
         <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
         <header>
@@ -28,11 +31,19 @@
         </header>
         <nav class="sitenavigation">
             <div class="navigation-menu-button">
-                <img src="OtherImages/Hamburger_icon.png" width="60" height="60" alt="Show navigation">
+                <img class="hamburgerButton" src="OtherImages/Hamburger_icon.png" alt="Show navigation">
             </div>
             <ol>
                 <li><a href="index.html">Overview</a></li>
                 <li><a href="characters.html">Characters</a></li>
+                <ul>
+                    <li><a href="characters/gonFreecss.html">Gon Freecss</a></li>
+                    <li><a href="characters/killuaZoldyck.html">Killua</a></li>
+                    <li><a href="characters/kurapika.html">Kurapika</a></li>
+                    <li><a href="characters/leorio.html">Leorio</a></li>
+                    <li><a href="characters/hisoka.html">Hisoka</a></li>
+                    <li><a href="characters/chrollo.html">Chrollo</a></li>
+                </ul>
                 <li><a href="world.html">World</a></li>
                 <li><a href="concepts.html">Concepts</a></li>
                 <ul>
@@ -43,41 +54,65 @@
                 <li><a href="storyarcs.html">Story Arcs</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ol>
+            <div class="social-media-buttons">
+                <div class="fb-like socialButtons" data-href="http://danielladeweerd.com/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+                <div class="socialButtons">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Look at this great Hunter X Hunter website I found!" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </nav>
         <article>
             <h2 id="contentstart">Story Arcs</h2>
             <div class="containerImg" id="hunterExam1">
                 <h3 class="imgText">Hunter Exam</h3>
-                <img src="OtherImages/hunterExam.png" class="hunterExamImg" id="linkedImg">
+                <img src="StoryArcsImages/hunterExam.png" class="hunterExamImg" id="linkedImg">
             </div>
             <div id="displayHunterExam" class="displayDiv">
                 <h3>Hunter Exam</h3>
-                <p style="text-align:center;"><img src="OtherImages/hunterExamRunning.jpg" alt="The Running Phase of the Hunter Exam"></p>
+                <p style="text-align:center;"><img src="StoryArcsImages/hunterExamRunning.jpg" alt="The Running Phase of the Hunter Exam"></p>
                 <p>The Hunter Exam (ハンター試験, Hantā Shiken) is a yearly event which an applicant must pass in order to become a Hunter, an elite member of humanity and a part of the Hunter Association. These exams consist of several tests and stages which
                     can vary drastically. Thus far, 289 Hunter Exams have taken place. The Head of the Exam Commission is the Chairman of the Hunter Association themselves.</p>
-                <p style="text-align:center;"><img src="OtherImages/hunterExamHanging.jfif" alt="The Egg Capturing Phase of the Hunter Exam"></p>
+                <p style="text-align:center;"><img src="StoryArcsImages/hunterExamHanging.jfif" alt="The Egg Capturing Phase of the Hunter Exam"></p>
             </div>
             <div class="containerImg" id="heavensArena">
                 <h3 class="imgText">Heaven's Arena</h3>
-                <img src="OtherImages/heavensArena.jpg" class="heavensArenaImg" id="linkedImg">
+                <img src="StoryArcsImages/heavensArena.jpg" class="heavensArenaImg" id="linkedImg">
             </div>
             <div id="displayHeavensArena" class="displayDiv">
                 <h3>Heavens Arena</h3>
+                <p>The Heavens Arena (天てん空くう闘とう技ぎ場じょう, Tenkū Tōgijō) is a tower combat arena, the world's most popular battle site, where victorious fighters ascend to higher floors as part of its reward system.[1] It is on the same continent as the Republic
+                    of Padokea, Killua Zoldyck's country, but is located in the eastern part of the continent, opposite of where Padokea is.[2]</p>
+                <p>The fourth-tallest building in the world, Heavens Arena stands 991 meters (approx. 3,250 feet) tall and has 251 floors. Inside, thousands of martial artists (4,000 fighters on average) compete daily in order to test their skills and advance
+                    to higher floors.[2][1] The annual spectator attendance is over 1 billion and the building is fully equipped with service facilities, including restaurants and shopping.[1]</p>
+                <p>Competitors are allowed to fight and defeat their opponent using any means, but weapons are not allowed on the first 199 floors.[3] Competitors are given prize money for advancing on each of those 199 floors. After reaching the 100th floor,
+                    competitors get their own private room. When Killua first went to Heavens Arena at the age of six, he quit at the 199th floor and spent all the prize money on cakes.[1]</p>
+                <p>Up to the 200th floor, the building is divided into twenty 10-floor parts. For example, a fighter who wins on the 40th floor advances to the 50th, and one who loses on the same level regresses to the 30th: a 10-story scale.[1]</p>
+                <p>Recently, the top floors of the arena were devastated by the deathmatch between Chrollo Lucilfer and Hisoka Morow.[4]</p>
+                <p>Heaven's Arena arc takes place after the Hunter Exam arc in the manga and the Zoldyck Family arc in the anime. The arc focuses on the real test after qualifying the Hunter Exams and that is to learn Nen. Gon and Killua are the focus of
+                    the arc as they go to Heaven's Arena and learn how to use Nen from Wing, a former student of Biscuit Krueger.</p>
             </div>
             <div class="containerImg" id="yorknewCity">
                 <h3 class="imgText">Yorknew City</h3>
-                <img src="OtherImages//yorknewCity.png" class="yorknewCityImg" id="linkedImg">
+                <img src="StoryArcsImages/yorknewCity.png" class="yorknewCityImg" id="linkedImg">
             </div>
             <div id="displayYorknewCity" class="displayDiv">
                 <h3>Yorknew City</h3>
+                <p>Yorknew City (ヨークシンシティ, Yōkushin Shiti) is a sprawling metropolis of the United States of Saherta, on the Yorbian Continent.</p>
+                <p>The city annually holds various auctions from the 1st to the 10th of September, including the world's largest auction: the Southernpiece Auction,[1][2] in which the world's rarest and most valuable artifacts are accumulated in one place.
+                    Aside from thousands of lawful auction houses, the city is also famous for its black market auctions which mostly deal with illegal goods. The Mafia Community's Underground Auction takes place here every year, in the Cemetery Building.[3]</p>
+                <p>During the ten days of the auctions, tens of trillions of Jenny are exchanged in the official auctions alone. Yorknew's auctions are where one's dreams can come true-an item bought for Jenny Symbol 2011.svg10 thousand can be sold for Jenny
+                    Symbol 2011.svg100 million the next day.[1] According to Light Nostrade, the city's election and authority are mostly bribed and controlled by the Mafia Community. As a result, all enforcement forces in the city ranging from police
+                    to SWAT are literally dirty cops and Mafia henchmen in which the Mafia can order them to create blockage across the city during the Phantom Troupe's rampage.[4]</p>
+                <p>The Yorknew City arc is quite easily one of the best ones that we've seen in the story so far. Once again, we have Kurapika in the focus, but this time, his friends along with the Phantom Troupe enter the fray as well.</p>
             </div>
             <div class="containerImg" id="greedIsland">
                 <h3 id="greedIsland" class="imgText">Greed Island</h3>
-                <img src="OtherImages//greedIsland.jpg" class="greedIslandImg" id="linkedImg">
+                <img src="StoryArcsImages/greedIsland.jpg" class="greedIslandImg" id="linkedImg">
             </div>
             <div id="displayGreedIsland" class="displayDiv">
                 <h3>Greed Island</h3>
-                <p style="text-align:center;"><img src="OtherImages/greedIslandMap.png" alt="Map of Greed Island"></p>
+                <p style="text-align:center;"><img src="StoryArcsImages/greedIslandMap.png" alt="Map of Greed Island"></p>
                 <p>Locations:</p>
                 <ul>
                     <li>Shiso Tree: This is the starting point of the game.</li>
@@ -103,21 +138,26 @@
                     <li>Trade Shops: Where players can buy information, deposit money, sell cards, and purchase cards (other than the spell ones, including all the rank-B cards).</li>
                 </ul>
                 <p>Location on the world map:</p>
-                <p style="text-align:center;"><img src="OtherImages/greedIslandLocationOnMap.jpg" alt="Map of Greed Island" class="center"></p>
+                <p style="text-align:center;"><img src="StoryArcsImages/greedIslandLocationOnMap.jpg" alt="Map of Greed Island" class="center"></p>
             </div>
             <div class="containerImg" id="chimeraAnt">
                 <h3 class="imgText">Chimera Ant</h3>
-                <img src="OtherImages//chimeraAnts.png" class="chimeraAntImg" id="linkedImg">
+                <img src="StoryArcsImages/chimeraAnts.png" class="chimeraAntImg" id="linkedImg">
             </div>
             <div id="displayChimeraAnt" class="displayDiv">
                 <h3>Chimera Ants</h3>
+                <p>Chimera Ant arc introduces the Chimera Ants to us who turn out to be a huge threat to the entire human race. Gon and Killua enter their territory with the help of Kite, one of Ging's former students. There, they witness the mind-blowing
+                    power of the Ants and are forced to get stronger. With the birth of the King, the humans are all but set to be exterminated, but Netero is asked to put an end to him, setting up a magnificent confrontation. Meanwhile, Gon aims to get
+                    Kite back and undergoes a great change when he finds out about his death.</p>
             </div>
             <div class="containerImg" id="HunterChairman">
                 <h3 class="imgText">13th Hunter Chairman Election</h3>
-                <img src="OtherImages//13thHunterChairmanElection.png" class="HunterChairmanImg" id="linkedImg">
+                <img src="StoryArcsImages/13thHunterChairmanElection.png" class="HunterChairmanImg" id="linkedImg">
             </div>
             <div id="displayHunterChairman" class="displayDiv">
                 <h3>13th Hunter Chairman Election</h3>
+                <p>Gon and Killua's friendship is thrown under a lot of focus, and with Leorio returning, the arc gets much more interesting. Furthermore, we're finally introduced to Ging Freecss properly and by the end of the arc, Gon gets to meet him as
+                    well. The world of Hunter x Hunter is expanded vastly when Ging mentions the existence of the Dark Continent to us.</p>
             </div>
         </article>
         <footer>
@@ -127,7 +167,7 @@
             <p>https://myanimelist.net/anime/136/Hunter_x_Hunter</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hunter X Hunter Website</title>
+    <title>Hunter X Hunter Website - World</title>
     <!--
              Hunter X Hunter Website main web page
              Filename: world.html
@@ -12,13 +12,16 @@
           -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="modernizr.custom.40753.js"></script>
+    <meta name="description" content="The world of Hunter x Hunter is vast. Here is an explination on it.">
+    <script src="scripts/modernizr.custom.40753.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="respond.min.js"></script>
+    <script src="scripts/respond.min.js"></script>
     <link rel="shortcut icon" href="OtherImages/hunterxhuntericon.png">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="nSFstsK8"></script>
     <div class="container">
         <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
         <header>
@@ -26,11 +29,19 @@
         </header>
         <nav class="sitenavigation">
             <div class="navigation-menu-button">
-                <img src="OtherImages/Hamburger_icon.png" width="60" height="60" alt="Show navigation">
+                <img class="hamburgerButton" src="OtherImages/Hamburger_icon.png" alt="Show navigation">
             </div>
             <ol>
                 <li><a href="index.html">Overview</a></li>
                 <li><a href="characters.html">Characters</a></li>
+                <ul>
+                    <li><a href="characters/gonFreecss.html">Gon Freecss</a></li>
+                    <li><a href="characters/killuaZoldyck.html">Killua</a></li>
+                    <li><a href="characters/kurapika.html">Kurapika</a></li>
+                    <li><a href="characters/leorio.html">Leorio</a></li>
+                    <li><a href="characters/hisoka.html">Hisoka</a></li>
+                    <li><a href="characters/chrollo.html">Chrollo</a></li>
+                </ul>
                 <li><a href="world.html">World</a></li>
                 <li><a href="concepts.html">Concepts</a></li>
                 <ul>
@@ -41,9 +52,25 @@
                 <li><a href="storyarcs.html">Story Arcs</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ol>
+            <div class="social-media-buttons">
+                <div class="fb-like socialButtons" data-href="http://danielladeweerd.com/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+                <div class="socialButtons">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Look at this great Hunter X Hunter website I found!" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </nav>
         <article>
             <h2 id="contentstart">World</h2>
+            <p>
+                <img src="OtherImages/Mappemonde-color.png" alt="Map of Hunter x Hunter">
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fM97QBl37WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>The World of Hunter × Hunter (ハンター世界と文化,[1] Hantā Sekai to Bunka—lit. "Hunter World and Culture") is a fictional universe created by Yoshihiro Togashi.</p>
+            <P>The Hunter × Hunter world is composed of the ocean and the 6 continents which look similar to those of the real world but have different locations. There are 250 countries in the world and only two continents are known by name so far: the
+                Yorbian and Azian continents. In reality, the "ocean" where these continents are is a great lake in the Dark Continent called Lake Mobius. Beyond the geographical/physical aspects, it is also composed of many other fictional cultural aspects,
+                including: languages, currencies, ethnicities, etc.</P>
+            <h3>More Detailed Map With Places Labeled</h3>
             <p>
                 <img src="OtherImages/map.jpg" alt="Map of Hunter x Hunter">
             </p>
@@ -55,7 +82,7 @@
             <p>https://myanimelist.net/anime/136/Hunter_x_Hunter</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
